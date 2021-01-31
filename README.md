@@ -8,11 +8,19 @@ Remove all gists from a GitHub account.
 
 List all gists and exit:
 
-`gist-nuke --token <github-token>`
+```
+> gist-nuke --token <github-token>
+Fancy Gist - '8e94bba2b9c6a4285e31438804c562d7' - would remove
+```
 
 Tries to delete all gists:
 
-`gist-nuke --token <github-token> --no-dry-run`
+```
+gist-nuke --token <github-token> --no-dry-run
+Fancy Gist - '8e94bba2b9c6a4285e31438804c562d7' - finished
+
+Removal: 1 removed, 0 failed
+```
 
 ### GitHub Personal Access Token
 
